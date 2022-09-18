@@ -56,7 +56,7 @@ int main(){
         memset(buffer , BackGroundASSCIICode , Width * Height) ;
         memset(zBuffer , 0 , Width * Height * 4) ; 
 
-        CubeWidth = 20 ;
+        CubeWidth = 20 ; // render the First Cube
         HorizentalOffest = -2 * CubeWidth ; 
         for(float CubeX = -CubeWidth ; CubeX < CubeWidth ; CubeX+=increasment){
             for(float CubeY = -CubeWidth ; CubeY < CubeWidth ; CubeY+=increasment){
@@ -70,7 +70,7 @@ int main(){
             }
         }
 
-        CubeWidth = 10 ;
+        CubeWidth = 10 ; // render the Second Cube
         HorizentalOffest = 1 * CubeWidth ;
         for(float CubeX = -CubeWidth ; CubeX < CubeWidth ; CubeX+=increasment){
             for(float CubeY = -CubeWidth ; CubeY < CubeWidth ; CubeY+=increasment){
@@ -84,7 +84,7 @@ int main(){
             }
         }
 
-        CubeWidth = 7 ;
+        CubeWidth = 7 ; // render the Third Cube
         HorizentalOffest = 5 * CubeWidth ;
         for(float CubeX = -CubeWidth ; CubeX < CubeWidth ; CubeX+=increasment){
             for(float CubeY = -CubeWidth ; CubeY < CubeWidth ; CubeY+=increasment){
@@ -98,7 +98,7 @@ int main(){
             }
         }
 
-        CubeWidth = 5 ;
+        CubeWidth = 5 ; // render the last Cube
         HorizentalOffest = 12 * CubeWidth ;
         for(float CubeX = -CubeWidth ; CubeX < CubeWidth ; CubeX+=increasment){
             for(float CubeY = -CubeWidth ; CubeY < CubeWidth ; CubeY+=increasment){
